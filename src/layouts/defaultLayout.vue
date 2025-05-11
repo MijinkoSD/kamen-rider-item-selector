@@ -8,8 +8,12 @@ const layoutName = injectWithInit(injectKeys.layoutNameKey.key, undefined)
 
 <template>
   <div v-if="layoutName === undefined" class="layout-default">
+    <header>
+      <div id="title">
+        <h1>ライダーアイテムを自動選択するやつ</h1>
+      </div>
+    </header>
     <menuBar />
-    <p>Default layout active</p>
     <slot />
   </div>
   <slot v-else />

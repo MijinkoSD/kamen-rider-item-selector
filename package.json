@@ -1,9 +1,9 @@
 {
-  "name": "inkase-frontend",
-  "version": "0.0.0",
+  "name": "kamen-rider-item-selector",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.2.9",
     "@eslint/js": "^9.26.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@playwright/test": "^1.52.0",
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node22": "^22.0.1",

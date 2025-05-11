@@ -9,7 +9,7 @@ import { initVuetify } from './plugins/vuetify'
 
 const app = createApp(App)
 
-const vuetify = initVuetify()
+const vuetify = await initVuetify()
 
 app.use(createPinia())
 app.use(router)
