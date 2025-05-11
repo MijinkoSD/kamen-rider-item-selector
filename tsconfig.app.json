@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "auto/*"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./auto/cache/tsconfig.app.tsbuildinfo",
+    "types": [
+      "unplugin-vue-router/client"
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // 型専用としてマークされていないインポートやエクスポートを変換または省略せず、'module' 設定に基づいて出力ファイルの形式でそれらを記述します。
+    "verbatimModuleSyntax": true,
+    // switch 文のフォールスルーケースに対するエラー報告を有効にします。
+    "noFallthroughCasesInSwitch": true,
+    // インデックスを使用してアクセスする際に型に 'undefined' を追加します。
+    "noUncheckedIndexedAccess": true
+  }
+}

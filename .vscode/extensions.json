@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "gruntfuggly.todo-tree",
+    "Vue.volar",
+    "vitest.explorer",
+    "ms-playwright.playwright",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig"
+  ]
+}
