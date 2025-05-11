@@ -41,4 +41,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  // この設定が無いとルートURLが変わった際に開けなくなる
+  base: './',
 })
