@@ -1,11 +1,9 @@
 <script setup lang="ts">
-//
+import router from '@/router'
+
+onMounted(() => {
+  router.push({ name: '/ooo' })
+})
 </script>
 
-<template>
-<p>こんにちは</p>
-</template>
-
-<style scoped>
-/* */
-</style>
+<template></template>
