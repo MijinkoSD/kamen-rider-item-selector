@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { armMedals, headMedals, LegMedals } from '@/utils/data/ooo/medals'
+import { VBtn } from 'vuetify/components'
 
 const headMedalName = ref('？')
 const armMedalName = ref('？')

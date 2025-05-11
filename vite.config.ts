@@ -42,5 +42,6 @@ export default defineConfig({
     },
   },
   // この設定が無いとルートURLが変わった際に開けなくなる
+  root: './',
   base: './',
 })

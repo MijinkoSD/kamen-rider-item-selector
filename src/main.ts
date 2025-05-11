@@ -5,7 +5,8 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-import { initVuetify } from './plugins/vuetify'
+// ビルド後のファイルサイズが大きすぎると警告が出るため、動的インポートで別ファイルに切り離す
+const { initVuetify } = await import('./plugins/vuetify')
 
 const app = createApp(App)
 
